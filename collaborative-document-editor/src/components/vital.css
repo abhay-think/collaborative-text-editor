@@ -1,0 +1,58 @@
+.slideshow {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-content {
+    display: flex;
+    transition: translateX(100px);
+    animation: toLeft 1s ease-out 0.15s both;
+}
+
+.slide {
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.input-container {
+    position: relative;
+    width: 150px;
+}
+
+.input-container input {
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.input-field {
+    border: none;
+    padding: 10px;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.unit-dropdown {
+    border: none;
+    padding: 10px;
+    background-color: #eee;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.custom .ql-container.ql-snow{
+    border-bottom: none;
+}
